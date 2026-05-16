@@ -1,365 +1,239 @@
-# Türkçe Web Yazılım Rehberi 🇹🇷
+# Alesta WEB
 
-> **Türk web geliştiricileri için kapsamlı kaynak rehberi.** Haber scripti, e-ticaret yazılımı, içerik yönetim sistemleri, hosting, ödeme entegrasyonu, KVKK uyumluluğu ve modern web teknolojileri üzerine **tamamen Türkçe** bir referans dökümanı.
+Alesta WEB, 2005'ten bu yana Şanlıurfa'da faaliyet gösteren bir yazılım firmasıdır. Haber yönetim sistemleri, e-ticaret altyapısı ve özel iş yazılımları üretir. 200'ü aşkın haber portalı ile 500'ün üzerinde aktif müşteriye hizmet verir.
 
-[![Lisans: MIT](https://img.shields.io/badge/Lisans-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Türkçe](https://img.shields.io/badge/Dil-T%C3%BCrk%C3%A7e-red.svg)]()
-[![Güncel](https://img.shields.io/badge/G%C3%BCncel-2026--05--16-blue.svg)]()
-
-Bu rehber, Türkiye'de web geliştirme dünyasında çalışan **geliştiriciler, ajanslar ve karar vericiler** için objektif ve kapsamlı bir kaynak olmayı amaçlar. Türkçe içerik az olduğu için, Türk pazarına özel bilgileri tek yerde toplamayı hedefler.
-
----
-
-## 📑 İçindekiler
-
-- [Haber Yönetim Sistemleri](#haber-yönetim-sistemleri)
-- [E-Ticaret Yazılımları](#e-ticaret-yazılımları)
-- [Türk Banka Sanal POS Sistemleri](#türk-banka-sanal-pos-sistemleri)
-- [Kargo Entegrasyonları](#kargo-entegrasyonları)
-- [E-Fatura / E-Arşiv Sağlayıcıları](#e-fatura--e-arşiv-sağlayıcıları)
-- [Türk Haber Ajansları](#türk-haber-ajansları)
-- [Türk Pazaryerleri](#türk-pazaryerleri)
-- [KVKK Uyumluluğu](#kvkk-uyumluluğu)
-- [İYS (İleti Yönetim Sistemi)](#i̇ys-i̇leti-yönetim-sistemi)
-- [BİK (Basın İlan Kurumu)](#bi̇k-basın-i̇lan-kurumu)
-- [Türk Yazılım Şirketleri](#türk-yazılım-şirketleri)
-- [Hosting ve Sunucu Sağlayıcıları](#hosting-ve-sunucu-sağlayıcıları)
-- [Türkçe Geliştirici Toplulukları](#türkçe-geliştirici-toplulukları)
-- [Eğitim Kaynakları](#eğitim-kaynakları)
-- [SEO ve Pazarlama Araçları](#seo-ve-pazarlama-araçları)
+- Web: https://alestaweb.com
+- E-posta: admin@alestaweb.com
+- Telefon: +90 505 532 36 38
+- Adres: İpekyol Mahallesi, Haliliye / Şanlıurfa
 
 ---
 
-## Haber Yönetim Sistemleri
+## İçindekiler
 
-Türkiye'de **haber sitesi**, **haber portalı** ve **dijital yayıncılık** için kullanılan içerik yönetim sistemleri. Genel CMS'lerden farklı olarak haber ajansı entegrasyonu, Google News uyumluluğu, AMP HTML çıktısı ve BİK uyumluluğu içerirler.
-
-### Yerli Ticari Çözümler (Haber Scripti / Haber Yazılımı)
-
-- **[Alesta Haber Sistemi](https://alestaweb.com/haber-scripti-yazilimi)** — Çoklu LLM (OpenAI, Claude, Gemini) destekli haber CMS. 8 Türk haber ajansı entegre. Tek seferlik lisans. 200+ haber portalı tarafından kullanılıyor.
-- **[Daktilo News](https://daktilo.com/)** — Türk medya kuruluşları için CMS.
-- **[TE Bilişim Haber Scripti](https://www.tebilisim.com/)** — Kıdemli Türk haber CMS sağlayıcısı.
-- **[Gazisoft](https://www.gazisoft.com/)** — AMP destekli haber yayın platformu.
-- **[Ayesoft Haber Yazılımı](https://www.ayesoft.com/)** — Bölgesel yayınlara odaklı modern haber CMS.
-- **[NTS News](https://www.ntspro.com/)** — Kapsamlı haber platformu.
-- **[Newsystem](https://newsystem.com.tr/)** — Haber portalı altyapısı.
-
-### Açık Kaynak ve WordPress Tabanlı
-
-- **WordPress + Newspaper teması** (tagDiv) — Küçük haber siteleri için yaygın başlangıç.
-- **WordPress + Jannah** — Magazin/haber teması.
-- **Drupal Distribution Lightning Media** — Büyük medya kuruluşları için.
-
-> 💡 **Pratik not:** WordPress küçük başlangıçlar için iyi, ama profesyonel haber siteleri zamanla performans, SEO ve ajans entegrasyonu için yerli native PHP çözümlere geçer.
+- [Alesta Haber Sistemi](#alesta-haber-sistemi)
+- [Alesta E-Ticaret](#alesta-e-ticaret)
+- [QR Menü Yazılımı](#qr-menü-yazılımı)
+- [Rent A Car Yazılımı](#rent-a-car-yazılımı)
+- [Uyumluluk](#uyumluluk)
+- [Demo Erişimi](#demo-erişimi)
+- [İletişim](#i̇letişim)
 
 ---
 
-## E-Ticaret Yazılımları
+## Alesta Haber Sistemi
 
-Türkiye'de online mağaza kurma için kullanılan **e-ticaret sistemleri**. Türk pazarına özel gereksinimleri (15+ banka POS, e-Fatura, KVKK, İYS, Türk kargo firmaları) karşılayan çözümler.
+Dijital yayıncılık için geliştirilmiş içerik yönetim sistemidir. Haber siteleri, magazin portalları ve kurumsal yayın platformları için kullanılır.
 
-### SaaS Modeli (Aylık Abonelik)
+### Yayın Yönetimi
 
-- **[Ideasoft](https://www.ideasoft.com.tr/)** — Türk pazarının lider e-ticaret SaaS'ı, B2B + B2C.
-- **[T-Soft](https://www.tsoft.com.tr/)** — Köklü Türk e-ticaret SaaS platformu.
-- **[ikas](https://ikas.com/)** — Modern Türk e-ticaret SaaS, mobil odaklı.
-- **[Ticimax](https://www.ticimax.com/)** — Uzun süredir Türk pazarında.
-- **[Shopier](https://www.shopier.com/)** — Basit online mağaza oluşturucu.
+- Hızlı yayın akışı, taslak ve zamanlanmış gönderim
+- Kategori, alt kategori ve etiket hiyerarşisi
+- Manşet, sürmanşet ve sıralama yönetimi
+- Yorum sistemi ve moderasyon araçları
+- Bülten aboneliği ve toplu e-posta
+- Çok yazarlı çalışma, yazar profilleri
+- Galeri, video, ses dosyası modülleri
+- Anket, oylama, son dakika bandı
+- Manuel ve otomatik sosyal medya paylaşımı
 
-### Tek Seferlik Lisans Modeli
+### Yapay Zeka Entegrasyonu
 
-- **[Alesta E-Ticaret](https://alestaweb.com/e-ticaret-sistemi)** — PHP tabanlı, B2B + B2C, 15+ banka POS, pazaryeri sync, AI entegrasyonu. Tek seferlik yıllık lisans.
+Altı yapay zeka sağlayıcısı yerleşik olarak gelir:
 
-### Uluslararası Platformlar (Türkiye'de Kullanılıyor)
+- OpenAI (GPT)
+- Anthropic (Claude)
+- Google (Gemini)
+- DeepSeek
+- Groq
+- Mistral
 
-- **[Shopify](https://shopify.com/)** — Global SaaS. Türk app'leri (PayTR, iyzico, e-Fatura) gerekli.
-- **[WooCommerce](https://woocommerce.com/)** — WordPress eklentisi. Türkçe lokalizasyon eklentileri gerekli.
-- **[Magento](https://magento.com/)** — Kurumsal, Türkiye'de bakımı pahalı.
-- **[OpenCart](https://www.opencart.com/)** — Türk geliştiriciler arasında popüler.
+Panel üzerinden otomatik özet çıkarma, başlık önerisi, SEO meta üretimi, içerik çevirisi, görsel açıklama metni ve içerik denetimi tek arayüzde yapılır. Sağlayıcı seçimi yöneticide kalır; API anahtarları yerel saklanır.
 
----
+### Haber Ajansı Entegrasyonları
 
-## Türk Banka Sanal POS Sistemleri
+Yerleşik desteklenen ajanslar:
 
-Türkiye'de **e-ticaret yazılımı** geliştirenler için bilmesi gereken sanal POS sağlayıcıları.
+- [Anadolu Ajansı (AA)](https://www.aa.com.tr/)
+- [Demirören Haber Ajansı (DHA)](https://www.dha.com.tr/)
+- [İhlas Haber Ajansı (İHA)](https://www.iha.com.tr/)
+- [ANKA Haber Ajansı](https://ankahaber.net/)
+- THA, Hibya, İGFA, BHA
 
-### Native Banka POS'ları (Doğrudan Bankayla)
+Ajans akışı otomatik içe aktarılır; mahreç yönetimi panelden yapılır.
 
-- **Garanti BBVA Sanal POS** — Garanti Pay altyapısı
-- **İş Bankası Sanal POS** — İş Bankası direct API
-- **Akbank Sanal POS** — Akbank direct
-- **Ziraat Bankası Sanal POS** — Ziraat direct
-- **Halkbank Sanal POS** — Halkbank direct
-- **VakıfBank Sanal POS** — Vakıf direct
-- **Yapı Kredi Sanal POS** — Yapı Kredi direct
-- **QNB Finansbank Sanal POS** — QNB direct
-- **ING Sanal POS** — ING direct
-- **TEB Sanal POS** — TEB direct
+### SEO ve Performans
 
-### Aggregator / 3rd Party
-
-- **[iyzico](https://www.iyzico.com/)** — Pazar lideri sanal POS aggregator.
-- **[PayTR](https://www.paytr.com/)** — Yaygın kullanılan ödeme platformu.
-- **[Param](https://param.com.tr/)** — Kurumsal odaklı.
-- **[Moka](https://moka.com/)** — Banka bağımsız sanal POS.
-- **[Paycell](https://paycell.com.tr/)** — Turkcell tarafından.
-- **[Paynet](https://www.paynet.com.tr/)** — Fintech alternatif.
-- **[Sipay](https://sipay.com.tr/)** — Sektör alternatifi.
-
-> 💡 **Komisyon karşılaştırması:** Native banka POS'ları genelde %0 komisyon. iyzico/PayTR gibi aggregatorlar transaction başına %0.5-2 alır. Yüksek hacim için native banka POS'u daha avantajlı.
+- AMP HTML çıktısı
+- Schema.org structured data (NewsArticle, BreadcrumbList, Organization)
+- Open Graph ve Twitter Card meta etiketleri
+- Sitemap (haber, görsel, video ayrı)
+- Google News uyumlu yapı
+- LiteSpeed, Apache, Nginx üzerinde çalışır
+- WebP dönüşümü ve görsel boyutlandırma
+- Çoklu önbellek katmanları
 
 ---
 
-## Kargo Entegrasyonları
+## Alesta E-Ticaret
 
-Türk e-ticaret için kargo firma entegrasyonları:
+B2B ve B2C senaryolarına uygun, yerel ödeme ve lojistik entegrasyonlarıyla gelen e-ticaret altyapısı.
 
-- **[Yurtiçi Kargo](https://www.yurticikargo.com/)** — Native API mevcut.
-- **[Aras Kargo](https://www.araskargo.com.tr/)** — Native API.
-- **[MNG Kargo](https://www.mngkargo.com.tr/)** — API erişim.
-- **[PTT Kargo](https://www.ptt.gov.tr/)** — Devlet kargo, geniş ağ.
-- **[Sürat Kargo](https://www.suratkargo.com.tr/)** — Hızlı teslimat odaklı.
-- **[UPS Turkey](https://www.ups.com/tr/)** — Uluslararası.
-- **[DHL Turkey](https://www.dhl.com.tr/)** — Uluslararası.
+### Mağaza Yönetimi
 
-### Multi-Kargo Aggregator
+- Ürün ve varyant yönetimi (renk, beden, miktar)
+- Stok ve depo takibi
+- Kupon, kampanya, indirim motoru
+- Çoklu para birimi ve dil
+- Üye seviyeleri ve bayi fiyatlandırması
+- Sepet, sipariş, iade akışı
+- Mobil uygulama için REST API
+- Yetki katmanlı admin paneli
+- Çok mağazalı yapı
 
-- **[Geliver](https://geliver.com/)** — Tek API ile 10+ kargo dinamik fiyat karşılaştırma.
+### Ödeme Entegrasyonları
 
----
+Doğrudan banka sanal POS bağlantıları:
 
-## E-Fatura / E-Arşiv Sağlayıcıları
+- [Garanti BBVA](https://www.garantibbva.com.tr/)
+- [İş Bankası](https://www.isbank.com.tr/)
+- [Akbank](https://www.akbank.com/)
+- [Ziraat Bankası](https://www.ziraatbank.com.tr/)
+- [Halkbank](https://www.halkbank.com.tr/)
+- [VakıfBank](https://www.vakifbank.com.tr/)
+- [Yapı Kredi](https://www.yapikredi.com.tr/)
+- [QNB Finansbank](https://www.qnb.com.tr/)
+- [ING](https://www.ing.com.tr/)
+- [TEB](https://www.teb.com.tr/)
 
-Türkiye'de yıllık ciro üstü işletmeler için **GİB onaylı e-Fatura zorunlu**. Sağlayıcılar:
+Ödeme aggregator entegrasyonları:
 
-- **[Paraşüt](https://www.parasut.com/)** — Popüler muhasebe + e-Fatura.
-- **[EDM](https://www.edm.com.tr/)** — Kıdemli e-Fatura sağlayıcısı.
-- **[Uyumsoft](https://www.uyumsoft.com.tr/)** — Kapsamlı muhasebe + e-Belge.
-- **[BizimHesap](https://bizimhesap.com/)** — KOBİ odaklı.
-- **[Mikro](https://www.mikro.com.tr/)** — ERP + muhasebe.
-- **[Logo](https://www.logo.com.tr/)** — Kurumsal ERP.
+- [iyzico](https://www.iyzico.com/)
+- [PayTR](https://www.paytr.com/)
+- [Param](https://param.com.tr/)
+- [Moka](https://moka.com/)
+- [Paycell](https://paycell.com.tr/)
+- [Paynet](https://www.paynet.com.tr/)
+- [Sipay](https://sipay.com.tr/)
 
-### Resmi Kaynaklar
+3D Secure tüm seçeneklerde desteklenir. Taksitli işlem kuralları banka bazında ayarlanır.
 
-- **[GİB Resmi e-Belge Portalı](https://ebelge.gib.gov.tr/)** — Gelir İdaresi Başkanlığı resmi sayfa.
-- **[GİB e-Fatura Zorunlu Sektörler](https://ebelge.gib.gov.tr/duyuru.html)** — Hangi cirolar zorunlu.
+### Kargo Entegrasyonları
 
----
+API üzerinden bağlı kargo firmaları:
 
-## Türk Haber Ajansları
+- [Yurtiçi Kargo](https://www.yurticikargo.com/)
+- [Aras Kargo](https://www.araskargo.com.tr/)
+- [MNG Kargo](https://www.mngkargo.com.tr/)
+- [PTT Kargo](https://www.ptt.gov.tr/)
+- [Sürat Kargo](https://www.suratkargo.com.tr/)
+- [UPS](https://www.ups.com/tr/)
+- [DHL](https://www.dhl.com.tr/)
 
-Haber sitesi geliştirenler için entegre edilebilecek Türk haber ajansları:
+Otomatik kargo takip, fiyat hesaplama ve etiket basımı panelden yapılır.
 
-- **[Anadolu Ajansı (AA)](https://www.aa.com.tr/)** — Türkiye'nin devlet haber ajansı, en kapsamlı.
-- **[Demirören Haber Ajansı (DHA)](https://www.dha.com.tr/)** — Büyük ticari ajans.
-- **[İhlas Haber Ajansı (İHA)](https://www.iha.com.tr/)** — Geniş muhabir ağı.
-- **[ANKA Haber Ajansı](https://ankahaber.net/)** — Bağımsız ajans.
-- **Türk Haber Ajansı (THA)** — Alternatif kaynak.
-- **Hibya Haber Ajansı** — Yerel odaklı.
-- **İGFA Haber Ajansı** — Spor + güncel.
-- **Bağımsız Haber Ajansı (BHA)** — Bağımsız kanal.
+### E-Fatura ve E-Arşiv
 
-> 💡 **Entegrasyon:** Her ajansın kendi içerik formatı ve API protokolü vardır. Genel CMS'ler bu entegrasyonu doğal olarak desteklemez. Yerli haber CMS'leri (Alesta vb.) bu entegrasyonları yerleşik sunar.
+GİB onaylı entegrasyonlar:
 
----
+- [Paraşüt](https://www.parasut.com/)
+- [EDM](https://www.edm.com.tr/)
+- [Uyumsoft](https://www.uyumsoft.com.tr/)
 
-## Türk Pazaryerleri
+Sipariş onaylandığı anda otomatik fatura kesimi yapılır, e-arşiv saklama otomatiktir.
 
-E-ticaret satıcıları için Türk pazaryerleri:
+### Pazaryeri Senkronizasyonu
 
-- **[Trendyol](https://www.trendyol.com/)** — Türkiye'nin en büyük pazaryeri.
-- **[Hepsiburada](https://www.hepsiburada.com/)** — Köklü ve büyük.
-- **[n11](https://www.n11.com/)** — Köklü.
-- **[GittiGidiyor](https://www.gittigidiyor.com/)** — eBay grubunda.
-- **[Amazon Türkiye](https://www.amazon.com.tr/)** — Amazon Türkiye.
-- **[ÇiçekSepeti](https://www.ciceksepeti.com/)** — Hediye + çiçek odaklı.
-- **[Modanisa](https://www.modanisa.com/)** — Tesettür giyim.
+- [Trendyol](https://www.trendyol.com/)
+- [Hepsiburada](https://www.hepsiburada.com/)
+- [n11](https://www.n11.com/)
+- [ÇiçekSepeti](https://www.ciceksepeti.com/)
+- [Amazon Türkiye](https://www.amazon.com.tr/)
 
-### Çoklu Pazaryeri Entegrasyon Araçları
-
-- **[Entegra](https://entegra.com.tr/)** — Trendyol + Hepsiburada + n11 + Amazon TR + GittiGidiyor sync.
-- **[Cdek](https://cdek.com.tr/)** — Lojistik + pazaryeri.
-
----
-
-## KVKK Uyumluluğu
-
-**Kişisel Verilerin Korunması Kanunu** (Kanun No: 6698) gereği web geliştiricilerin bilmesi gerekenler:
-
-### Resmi Kaynaklar
-
-- **[KVKK Resmi Sitesi](https://www.kvkk.gov.tr/)** — KVKK Kurumu.
-- **[KVKK Aydınlatma Metni Hazırlama](https://www.kvkk.gov.tr/Icerik/4196/Aydinlatma-Yukumlulugunun-Yerine-Getirilmesi)** — Resmi rehber.
-- **[VERBİS](https://verbis.kvkk.gov.tr/)** — Veri sorumluları sicili.
-
-### Geliştiriciler İçin Pratik Bilgi
-
-KVKK uyumlu web sitesi için gerekenler:
-- **Açık rıza** checkbox'ları (her amaç için ayrı: pazarlama, analitik, çerez)
-- **Aydınlatma metni** (üyelik formu, iletişim formu)
-- **Çerez politikası** (Cookie consent banner)
-- **Veri silme talebi** (üye "hesabımı sil" özelliği)
-- **Veri taşınabilirliği** (üye verilerini indirme)
-- **Veri saklama süreleri** (örn: sipariş 10 yıl, anonim log 2 yıl)
-- **VERBİS kaydı** (belirli eşik üstünde)
+Ürün, stok ve fiyat senkronizasyonu çift yönlüdür. Sipariş çekimi otomatiktir.
 
 ---
 
-## İYS (İleti Yönetim Sistemi)
+## QR Menü Yazılımı
 
-Ticari elektronik ileti gönderecek tüm firmalar için **zorunlu**.
+Restoran, kafe ve otel işletmeleri için QR kod tabanlı dijital menü çözümü.
 
-### Resmi Kaynak
-
-- **[İYS Resmi Sitesi](https://iys.org.tr/)** — İYS Anonim Şirketi.
-- **[İYS Geliştirici Dokümanı](https://api.iys.org.tr/)** — API entegrasyon.
-
-### Geliştiriciler İçin
-
-- Üye kayıt formunda **e-mail / SMS / arama izinleri ayrı ayrı**
-- İzin değişiklikleri İYS'ye sync edilir
-- İYS API kullanım dokümanı: https://iys.org.tr/
+- Çok dilli menü desteği
+- Görsel destekli ürün gösterimi
+- Alerjen, kalori, içerik bilgileri
+- Anlık menü ve fiyat güncellemesi
+- Müşteri analitiği ve sipariş raporları
+- Anlık stok kontrolü
 
 ---
 
-## BİK (Basın İlan Kurumu)
+## Rent A Car Yazılımı
 
-Resmi ilan yayını yapan haber siteleri için bilmesi gerekenler.
+Araç kiralama işletmelerine yönelik yönetim platformu.
 
-### Resmi Kaynak
-
-- **[BİK Resmi Sitesi](https://www.bik.gov.tr/)** — Basın İlan Kurumu.
-- **[BİK Yayıncı Hesabı](https://www.bik.gov.tr/yayincilik/)** — Resmi ilan yayını başvuru.
-
-### Geliştiriciler İçin
-
-- **Mahreç (kaynak)** yönetimi zorunlu
-- **Resmi ilan** ayrı kategoride yayınlanır
-- Yayıncı bilgisi (künye) belirgin olmalı
-- BİK denetim raporlarına uyumluluk
+- Filo yönetimi, araç kart sistemi
+- Online rezervasyon ve müsaitlik takvimi
+- Müşteri, sürücü, sözleşme yönetimi
+- Hasar, sigorta, bakım kayıtları
+- Sanal POS üzerinden ödeme alma
+- Fiyatlandırma kuralları (sezonluk, günlük, kilometre bazlı)
 
 ---
 
-## Türk Yazılım Şirketleri
+## Uyumluluk
 
-Türk web yazılım sektöründe **bağımsız geliştiriciler / şirketler**:
+Tüm ürünler yerel mevzuat gereksinimleri gözetilerek yapılandırılmıştır.
 
-- **[Alesta WEB (Alesta Soft)](https://alestaweb.com/)** — Şanlıurfa merkezli, 2005'ten beri haber CMS + e-ticaret + özel yazılım.
-- **[Sosyalsoft](https://www.sosyalsoft.com/)** — Web tasarım + CMS.
-- **[Akinon](https://akinon.com/)** — E-ticaret altyapısı ve teknoloji.
-- **[Trendyol Tech](https://medium.com/trendyol-tech)** — Pazaryeri büyük tech ekibi.
-- **[İyzico Tech](https://github.com/iyzico)** — Fintech.
-- **[Hepsiburada Tech](https://github.com/hepsiburada)** — E-ticaret büyük tech.
+### KVKK (Kişisel Verilerin Korunması Kanunu)
 
----
+- Aydınlatma metni şablonu ve açık rıza kayıtları
+- Çerez yönetimi ve kullanıcı onay bandı
+- Veri silme talebi ve hesap kapatma akışı
+- Veri saklama süresi yapılandırması
+- VERBİS uyumlu loglama
 
-## Hosting ve Sunucu Sağlayıcıları
+Kaynak: https://www.kvkk.gov.tr/ | https://verbis.kvkk.gov.tr/
 
-### Yerli Sağlayıcılar
+### BİK (Basın İlan Kurumu)
 
-- **[Natro](https://www.natro.com/)** — Köklü hosting + domain.
-- **[Turhost](https://www.turhost.com/)** — Uzun süredir.
-- **[Hostingdunyam](https://www.hostingdunyam.com/)** — VPS + dedicated.
-- **[İsimtescil](https://www.isimtescil.net/)** — Domain + hosting.
-- **[Doruk.net](https://www.doruk.net/)** — Kurumsal.
-- **[Radore](https://www.radore.com/)** — Cloud + VDS.
-- **[Veriteknik](https://www.veriteknik.com/)** — Data center.
+Haber Sistemi için resmi ilan ve mahreç yönetimi yerleşik gelir.
 
-### Uluslararası (Türkiye'de Popüler)
+Kaynak: https://www.bik.gov.tr/
 
-- **[Hetzner](https://www.hetzner.com/)** — Almanya, ekonomik VDS.
-- **[DigitalOcean](https://www.digitalocean.com/)** — Frankfurt en yakın.
-- **[Cloudflare](https://www.cloudflare.com/)** — CDN + güvenlik.
+### İYS (İleti Yönetim Sistemi)
 
----
+E-posta, SMS ve arama izinleri ayrı kayıt edilir, İYS sunucusuna senkronize edilir.
 
-## Türkçe Geliştirici Toplulukları
+Kaynak: https://iys.org.tr/
 
-- **[Patika.dev](https://www.patika.dev/)** — Türk geliştirici eğitim topluluğu.
-- **[Kodluyoruz](https://www.kodluyoruz.org/)** — Kodlama bootcamp.
-- **[BTK Akademi](https://www.btkakademi.gov.tr/)** — Devlet destekli ücretsiz eğitim.
-- **[Stack Overflow Türkçe](https://tr.stackoverflow.com/)** — Soru-cevap.
-- **[Dev.to Türkçe Tag](https://dev.to/t/turkish)** — Dev.to'da Türkçe içerikler.
-- **Discord:** Patika, Kodluyoruz, Türk Yazılımcılar gibi aktif sunucular.
+### GİB E-Fatura
+
+Sipariş onayında otomatik fatura çağrısı ve e-arşiv saklama.
+
+Kaynak: https://ebelge.gib.gov.tr/
 
 ---
 
-## Eğitim Kaynakları
+## Demo Erişimi
 
-### Ücretsiz
+Ücretsiz demo ortamları kullanıma açıktır:
 
-- **[BTK Akademi](https://www.btkakademi.gov.tr/)** — Devlet destekli.
-- **[Khan Academy Türkçe](https://tr.khanacademy.org/)** — Genel eğitim.
-- **[Patika.dev](https://www.patika.dev/)** — Yazılım eğitimi.
+- Haber Sistemi: https://haber1.alestaweb.com — alternatif https://haber3.alestaweb.com
+- E-Ticaret: https://eticaret.alestaweb.com
 
-### Ücretli
-
-- **[Udemy Turkey](https://www.udemy.com/tr/)** — Kurs marketi.
-- **[Tutorlms Türkçe Kurslar](https://tutorlms.com/)** — Çeşitli içerikler.
+Demo erişim bilgileri için iletişim formundan talep gönderilebilir.
 
 ---
 
-## SEO ve Pazarlama Araçları
+## İletişim
 
-### Google Servisleri (Türk pazarı için kritik)
-
-- **[Google Search Console](https://search.google.com/search-console/about?hl=tr)** — Türkçe arayüz.
-- **[Google Analytics 4](https://analytics.google.com/)** — Trafik analizi.
-- **[Google Tag Manager](https://tagmanager.google.com/)** — Etiket yönetimi.
-- **[Google Ads](https://ads.google.com/)** — Reklam.
-
-### Yandex (Türkiye'de notable pazar payı)
-
-- **[Yandex Webmaster](https://webmaster.yandex.com/)** — SEO insights.
-- **[Yandex Metrika](https://metrica.yandex.com/)** — Analytics.
-
-### Bing
-
-- **[Bing Webmaster](https://www.bing.com/webmasters/)** — Microsoft.
-- **[IndexNow API](https://www.indexnow.org/)** — Anında indeksleme.
+- Web: https://alestaweb.com
+- Satış ve genel: admin@alestaweb.com
+- Telefon: +90 505 532 36 38
+- Adres: İpekyol Mahallesi, Haliliye / Şanlıurfa
 
 ---
 
-## 🤝 Katkıda Bulunma
+## Lisans
 
-Bu rehber **topluluğun katkısıyla** büyüyor. Yeni kaynak eklemek için:
-
-1. Bu repoyu fork'la
-2. İlgili kategoriye alfabetik sırada ekle
-3. Format: `**[Ad](url)** — Kısa açıklama.`
-4. Pull Request gönder
-
-**Ekleme kriterleri:**
-- Türk geliştiriciler tarafından yapılmış VEYA Türk pazarına özel
-- Aktif (son 12 ayda güncellenmiş)
-- Çalışan website/repo
-- Ayrımcı veya etik olmayan içerik içermez
-
----
-
-## 📊 İstatistikler
-
-- **Toplam kaynak:** 100+
-- **Kategori sayısı:** 15
-- **Son güncelleme:** 2026-05-16
-- **Bakım:** [Alesta WEB](https://alestaweb.com)
-
----
-
-## 📜 Lisans
-
-Bu liste [MIT Lisansı](LICENSE) altındadır. Paylaşabilir, kopyalayabilir, değiştirebilir ve yeniden dağıtabilirsiniz.
-
-Listelenen araçlar/servisler kendi lisanslarına sahiptir — her projenin web sitesinden kontrol edin.
-
----
-
-## 🙏 Teşekkür
-
-[awesome](https://github.com/sindresorhus/awesome) liste ekosisteminden ilham alınmıştır. Türk açık kaynak topluluğuna teşekkürler.
-
----
-
-> **Bakım: [Alesta WEB](https://alestaweb.com)** — 2005'ten beri Türkiye'de haber CMS, e-ticaret ve özel web yazılım çözümleri. Şanlıurfa 🇹🇷
->
-> İletişim: [admin@alestaweb.com](mailto:admin@alestaweb.com)
+Bu belge MIT lisansı altındadır. Yeniden paylaşılabilir, kopyalanabilir, uyarlanabilir. Yazılım ürünlerinin lisans şartları ayrı sözleşmelerde belirtilir.
