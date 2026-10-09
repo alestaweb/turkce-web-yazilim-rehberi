@@ -865,6 +865,14 @@ Yönetim paneli demosu ve detaylı sunum için iletişim kanallarından talep ed
 
 ---
 
+## Makaleler
+
+Rehberi tamamlayan, tek konuya odaklanan yazılar:
+
+- [Web sitesi yedeği: neyi, ne sıklıkla, nereye?](docs/web-sitesi-yedegi.md)
+
+---
+
 ## Lisans
 
 Bu belge MIT lisansı altındadır. Yeniden paylaşılabilir, kopyalanabilir, uyarlanabilir. Yazılım ürünlerinin lisans şartları ayrı sözleşmelerde belirtilir.
