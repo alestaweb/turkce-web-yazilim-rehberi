@@ -867,9 +867,9 @@ Yönetim paneli demosu ve detaylı sunum için iletişim kanallarından talep ed
 
 ## Makaleler
 
-- [Küçük işletme için Google İşletme Profili: kurulum ve 12 hata](docs/google-isletme-profili-12-hata.md)
 Rehberi tamamlayan, tek konuya odaklanan yazılar:
 
+- [Küçük işletme için Google İşletme Profili: kurulum ve 12 hata](docs/google-isletme-profili-12-hata.md)
 - [Web sitesi yedeği: neyi, ne sıklıkla, nereye?](docs/web-sitesi-yedegi.md)
 
 ---
