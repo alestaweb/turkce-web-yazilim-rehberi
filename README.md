@@ -869,6 +869,7 @@ Yönetim paneli demosu ve detaylı sunum için iletişim kanallarından talep ed
 
 Rehberi tamamlayan, tek konuya odaklanan yazılar:
 
+- [Site hızı raporunu okumak: LCP, INP, CLS ve 12 sık hata](docs/site-hizi-raporunu-okumak.md)
 - [Web sitesini yeni sunucuya taşırken kontrol listesi](docs/site-tasima-kontrol-listesi.md)
 - [Web sitesi yaptırırken teklif karşılaştırma: sorulacak 15 soru](docs/web-sitesi-teklif-karsilastirma-15-soru.md)
 - [PHP2Shell: PHP sürümünüzü nasıl kontrol eder ve güncellersiniz?](docs/php2shell-php-surumu-kontrol-ve-guncelleme.md)
